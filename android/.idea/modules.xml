@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spinnerz.iml" filepath="$PROJECT_DIR$/.idea/modules/Spinnerz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Spinnerz.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Spinnerz.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1017987399/Spinnerz.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-1017987399/Spinnerz.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1652870082/Spinnerz.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-1652870082/Spinnerz.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1381119271/Spinnerz.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/1381119271/Spinnerz.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/227510783/Spinnerz.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/227510783/Spinnerz.react-native-screens.iml" />
+    </modules>
+  </component>
+</project>
