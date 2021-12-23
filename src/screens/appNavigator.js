@@ -11,7 +11,7 @@ import {useSelector} from 'react-redux'
 import Home from 'src/screens/appScreens/Home'
 import ChatMember from 'src/screens/appScreens/ChatMember'
 import Notification from 'src/screens/appScreens/Notification'
-import Collection from 'src/screens/appScreens/Collection'
+import MyBooking from 'src/screens/appScreens/MyBooking'
 import Plus from 'src/screens/appScreens/Plus'
 import Profile from 'src/screens/appScreens/Profile'
 import Setting from 'src/screens/appScreens/Setting'
@@ -123,7 +123,7 @@ const MyTabs = () =>  {
                 resizeMode={"contain"}/>
             )
         }}  />
-        <Tab.Screen name="Collection" component={Collection}
+        <Tab.Screen name="MyBooking" component={MyBooking}
         
         options={{
             tabBarIcon: () => (

@@ -25,13 +25,14 @@ let navigation = useNavigation()
             />
             
             <View style={styles.headerContainer}>
-                <TouchableOpacity onPress={() => navigation.goBack(null)}>
+                <TouchableOpacity style={{width:"10%",paddingVertical:10}}
+                onPress={() => navigation.goBack(null)}>
 
                  <Image source= {Images.LeftArrow} style={styles.arrowLeft} resizeMode={"contain"}/>
                 </TouchableOpacity>
                  <Text style={styles.setupTxt}>Set up your profile</Text>
              </View>
-             <ScrollView style={{marginHorizontal:20}}>
+             <ScrollView style={{marginHorizontal:20}} showsVerticalScrollIndicator={false}>
                 <View style={{marginVertical:40}}>
                 <TouchableOpacity style={styles.imageContainer}>
                     <Image source ={Images.Camera} resizeMode={"contain"} style={{width:47 , height:35 , alignSelf:"center"}}/>

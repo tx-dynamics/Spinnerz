@@ -33,7 +33,7 @@ const [displayPassword , setDisplayPassword] = useState(true)
             />
             
             <View style={styles.headerContainer}>
-                <TouchableOpacity style={{width:"10%",paddingVertical:10}}
+                <TouchableOpacity style={{width:"10%",paddingVertical:10, }}
                 onPress={() => navigation.goBack(null)}>
 
                  <Image source= {Images.LeftArrow} style={styles.arrowLeft} resizeMode={"contain"}/>

@@ -6,6 +6,8 @@ export default {
     darkBlack:"#4E4E4E",
     green:"#68BB59C9",
     pink:"#FF8585",
+    darkGreen:"#27C366",
+   
 
     
 }

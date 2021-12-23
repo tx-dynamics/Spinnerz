@@ -17,7 +17,8 @@ const styles = StyleSheet.create({
   },
   confirmModalCard: {
     backgroundColor: Colors.white,
-    borderRadius: 10,
+    borderTopLeftRadius:10,
+    borderTopRightRadius:10,
     elevation: 4,
   },
   headingTxt:{

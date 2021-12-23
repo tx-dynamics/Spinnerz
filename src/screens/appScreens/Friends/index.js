@@ -130,8 +130,9 @@ const Friends = () => {
                                 <View style={styles.userNameContainer}>
                                     <Text style={styles.userTxt}>{item.name}</Text>
                                 </View>
-                                <TouchableOpacity onPress={() => setFriendsModal(!friendsModal)}>
-                                     <Image source={Images.HorizantalDots} style={{height:3, width:13, }} resizeMode={"contain"}/>
+                                <TouchableOpacity style={{width:"10%", alignItems:"flex-end",paddingVertical:15}}
+                                onPress={() => setFriendsModal(!friendsModal)}>
+                                     <Image source={Images.HorizantalDots} style={{height:3, width:13, alignItems:"center" }} resizeMode={"contain"}/>
                                 </TouchableOpacity>
 
                             </View>

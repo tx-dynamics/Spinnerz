@@ -41,7 +41,7 @@ const ChatMember = () => {
   
 
     return(
-        <View style={{flex:1,}}>
+        <View style={{flex:1, backgroundColor:Colors.white}}>
              <StatusBar translucent={false}
             barStyle={"default"}
             backgroundColor= {Colors.sky}/>
@@ -63,7 +63,6 @@ const ChatMember = () => {
              <View style={{flex:1,marginTop:10, backgroundColor:Colors.white}}>
              <FlatList
             data={HomeData}
-            contentContainerStyle={{marginHorizontal:20}}
             keyExtractor={(item) => item.id.toString()}
             renderItem={({item , index}) => (
                 <View

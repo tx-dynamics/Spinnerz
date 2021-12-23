@@ -49,7 +49,7 @@ const Setting = () => {
         },
         {
             id:4,
-            image:Images.Advertisment,
+            image:Images.AboutUs,
             name:"Advertisement",
         },
         {
@@ -104,7 +104,7 @@ const Setting = () => {
                 <TouchableOpacity style={styles.listContiner}>
                     <View style={styles.innerContainer}>
                     <View style={{backgroundColor:Colors.sky,height:28, width:28, justifyContent:"center",alignItems:"center" , borderRadius:4, marginStart:16}}>
-                        <Image source={item.image} style={{height:14, width:14, }} resizeMode={"contain"}/>
+                        <Image source={item.image} style={{height:15, width:15, }} resizeMode={"contain"}/>
                     </View>
                     <View style={styles.userNameContainer}>
                         <Text style={styles.userTxt}>{item.name}</Text>

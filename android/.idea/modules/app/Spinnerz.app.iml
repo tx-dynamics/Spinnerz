@@ -89,9 +89,9 @@
     <orderEntry type="library" name="Gradle: com.squareup.okio:okio:2.9.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.10" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.10" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.5.20" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.5.30" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.20" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.30" level="project" />
     <orderEntry type="library" name="Gradle: com.facebook.fbjni:fbjni-java-only:0.2.2" level="project" />
     <orderEntry type="library" name="Gradle: com.facebook.flipper:flipper:0.99.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.facebook.react:react-native:0.66.4@aar" level="project" />
@@ -136,6 +136,7 @@
     <orderEntry type="library" name="Gradle: androidx.autofill:autofill:1.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline-okhttp3:2.5.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: org.webkit:android-jsc:r250230@aar" level="project" />
+    <orderEntry type="module" module-name="Spinnerz.react-native-pager-view" />
     <orderEntry type="module" module-name="Spinnerz.react-native-screens" />
     <orderEntry type="module" module-name="Spinnerz.react-native-community_masked-view" />
     <orderEntry type="module" module-name="Spinnerz.react-native-gesture-handler" />

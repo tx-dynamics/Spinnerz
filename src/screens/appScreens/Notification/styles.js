@@ -58,7 +58,17 @@ const styles = StyleSheet.create({
     listContiner:{
         paddingRight:0, 
         marginVertical:6, 
-        backgroundColor:Colors.white,paddingVertical:12, borderRadius:10,elevation:3
+        backgroundColor:Colors.white,
+        paddingVertical:12, 
+        borderRadius:10,
+        marginHorizontal:20,
+
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 1 },
+        shadowOpacity: 0.8,
+        shadowRadius: 2,  
+        elevation: 5
+
    },
     innerContainer:{flexDirection:"row",  },
     userImage:{height:48, width:48},
