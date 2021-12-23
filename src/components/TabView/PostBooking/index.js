@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 import {View, StatusBar, Image, StyleSheet, Text} from "react-native"
 import {useNavigation} from '@react-navigation/native'
-import {Colors, Images} from 'src/utils'
+import {Colors, Images, Fonts} from 'src/utils'
 import styles from './styles'
 import { FlatList, TouchableOpacity } from 'react-native-gesture-handler'
 
@@ -11,8 +11,9 @@ const PostBooking = () => {
     const CurrentBookingData = [
         {
             id:1,
-            name:"Emma White booked you for an event",
+            name:"booked you for an event",
             lastMsg:"1 hour ago",
+            userName:"Emma White"
         },
         {
             id:2,
@@ -37,8 +38,9 @@ const PostBooking = () => {
                 style={styles.listContiner}>
                     <View style={styles.innerContainer}>
                         <Image source={Images.User} style={{height:45, width:45,marginStart:10 }} resizeMode={"contain"}/>
-                    <View style={styles.userNameContainer}>
-                        <Text style={styles.userTxt}>{item.name}</Text>
+                   <View style={[styles.userNameContainer, {flexDirection:"row", }]}>
+                        <Text style={[styles.userTxt , {fontFamily:Fonts.Bold}]}>{item.userName}</Text>
+                        <Text style={styles.userTxt}> {item.name}</Text>
                     </View>
 
                     </View>
