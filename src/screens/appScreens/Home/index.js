@@ -6,6 +6,8 @@ import styles from './styles'
 import  Header  from 'src/components/Header'
 import ConfirmRequestModalView from 'src/components/Modal/ConfirmRequest'
 import ShareModalView from 'src/components/Modal/ShareModal'
+import {useSelector} from 'react-redux'
+
 
 
 const Home = () => {
@@ -18,16 +20,18 @@ const Home = () => {
     const [confirmationModal , setConfirmationModal] = useState(false)
     const [shareModal , setShareModal] = useState(false)
 
-    const InterestedButton = () => {
-            setInterested(false)
-            setRequestSent(true)
-  }
-    const RequestButton = () => {
-        setInterested(false)
-        setRequestSent(true)
-        setConfirmationModal(true)
+    const boostPost = useSelector((state) => state.app.boostPost)
 
-    }
+
+    const InterestedButton = () => {
+        setConfirmationModal(true)
+  }
+    // const RequestButton = () => {
+    //     setInterested(false)
+    //     setRequestSent(true)
+    //     setConfirmationModal(true)
+
+    // }
     
     const toggleNumberOfLines = (index)=> {
         
@@ -103,10 +107,9 @@ const Home = () => {
 
             <FlatList
             data={HomeData}
-            contentContainerStyle={{marginHorizontal:20}}
             keyExtractor={(item) => item.id.toString()}
             renderItem={({item , index}) => (
-                <TouchableOpacity style={styles.listContiner}>
+                <View style={styles.listContiner}>
                     <View style={styles.innerContainer}>
                         <Image source={Images.User} style={styles.userImage} resizeMode={"contain"}/>
                         <View style={styles.userNameContainer}>
@@ -129,19 +132,32 @@ const Home = () => {
                      <Text 
                     onPress={() => toggleNumberOfLines(index)}
                     style={[styles.des, {color:Colors.sky , marginTop:10}]}>{textShown === index ?'...less' : '...more'}</Text> : null}
-                    {interested ?
+                    {boostPost ? 
+                    <View style={{flexDirection:"row", justifyContent:"space-between", marginHorizontal:20,backgroundColor:"#E5F6FF", height:26, borderRadius:6, marginTop:10}}>
+                       <View style={{flexDirection:"row", justifyContent:"center", alignSelf:"center", marginStart:10}}>
+                           <Image source={Images.Wave} style={{height:9, width:9, alignSelf:"center"}} resizeMode={"contain"}/>
+                           <Text style={styles.boostValue}>31.4 k reach</Text>
+                       </View>
+                       <View style={{flexDirection:"row", justifyContent:"center", alignSelf:"center", marginEnd:10}}>
+                           <Text style={styles.boostValue}>View all</Text>
+                           <Image source={Images.BlackRightArrow} style={{height:6, width:5, alignSelf:"center"}} resizeMode={"contain"}/>
+                       </View>
+                    </View>
+                    :
+                    interested ?
                     <TouchableOpacity onPress={() => InterestedButton()}
                     style={styles.btnContainer}>
                             <Text style={[styles.userTxt, {color:Colors.white , textAlign:"center"}]}>I'm Interested</Text>
                     </TouchableOpacity>
-                    :null}
-                    {requestSent ?
-                    <TouchableOpacity onPress={() => RequestButton()}
-                    style={[styles.btnContainer, {backgroundColor:Colors.green}]}>
-                            <Text style={[styles.userTxt, {color:Colors.white , textAlign:"center"}]}>Request Sent</Text>
-                    </TouchableOpacity>
-                    :null}
-                </TouchableOpacity>
+                    :null
+                    // requestSent ?
+                    // <TouchableOpacity onPress={() => RequestButton()}
+                    // style={[styles.btnContainer, {backgroundColor:Colors.green}]}>
+                    //         <Text style={[styles.userTxt, {color:Colors.white , textAlign:"center"}]}>Request Sent</Text>
+                    // </TouchableOpacity>
+                    // :null}
+                }
+                </View>
             )}
             />
 

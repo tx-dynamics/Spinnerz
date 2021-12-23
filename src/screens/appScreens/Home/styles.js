@@ -43,6 +43,16 @@ const styles = StyleSheet.create({
         marginTop:10,
         
     },
+    boostValue:{
+        letterSpacing:0.75,
+        color:Colors.black,
+        fontSize:10,
+        fontWeight:"600",
+        padding:0,
+        fontFamily:Fonts.Regular,
+        marginHorizontal:10,
+        
+    },
     listContiner:{
         backgroundColor:Colors.white, 
         padding:10,
@@ -53,7 +63,8 @@ const styles = StyleSheet.create({
         shadowColor:"#000",
         shadowOffset:{width:0, height:2},
         shadowOpacity:0.3,
-        shadowRadius:2
+        shadowRadius:2,
+        marginHorizontal:20
         
     },
     innerContainer:{flexDirection:"row",  alignItems:"center"},

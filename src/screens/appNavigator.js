@@ -19,6 +19,8 @@ import EditProfile from 'src/screens/appScreens/EditProfile'
 import Friends from 'src/screens/appScreens/Friends'
 import ChatScreen from 'src/screens/appScreens/ChatScreen'
 import Filter from 'src/screens/appScreens/Filter'
+import BoostPost from 'src/screens/appScreens/BoostPost'
+import AddPaymentMethod from 'src/screens/appScreens/AddPaymentMethod'
 
 
 const StackNavigator = createStackNavigator()
@@ -40,6 +42,8 @@ const HomeNavigator =() => {
             <StackNavigator.Screen name="Friends" component={Friends}/>
             <StackNavigator.Screen name="ChatScreen" component={ChatScreen}/>
             <StackNavigator.Screen name="Filter" component={Filter}/>
+            <StackNavigator.Screen name="BoostPost" component={BoostPost}/>
+            <StackNavigator.Screen name="AddPaymentMethod" component={AddPaymentMethod}/>
             
 
         </StackNavigator.Navigator>
@@ -128,7 +132,14 @@ const MyTabs = () =>  {
         <Tab.Screen name="MyBooking" component={MyBooking}
         
         options={{
-            tabBarIcon: () => (
+            tabBarIcon: ({focused}) => (
+                focused?
+                <View style={{backgroundColor:Colors.sky, height:34, width:32, borderRadius:7, justifyContent:"center", alignItems:"center"}}>
+                <Image
+                source ={Images.Collection}
+                style={{height:18, width:19, tintColor:Colors.white}}
+                resizeMode={"contain"}/>
+                </View>:
                 <Image
                 source ={Images.Collection}
                 style={{height:20, width:20}}

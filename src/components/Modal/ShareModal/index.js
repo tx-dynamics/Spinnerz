@@ -8,10 +8,18 @@ import {
   TouchableOpacity,
 } from "react-native";
 import {Colors, Fonts, Images} from 'src/utils'
+import {useNavigation} from '@react-navigation/native'
+
 
 
 import styles from "./styles";
 const ShareModal = ({ setShareModal, shareModal }) => {
+  let navigation = useNavigation()
+
+  const BtnHandleShare =() => {
+    setShareModal(!shareModal)
+    navigation.navigate("BoostPost")
+  }
   
 
   return (
@@ -31,10 +39,11 @@ const ShareModal = ({ setShareModal, shareModal }) => {
                    <Image source={Images.Report} style={{width:45 , height:67}}/>
                     
                 </View>
-                <View style={{borderTopColor:"rgba(175, 175, 175, 0.51)", borderTopWidth:1, paddingVertical:30}}>
+                <TouchableOpacity onPress={() => BtnHandleShare()}
+                style={{borderTopColor:"rgba(175, 175, 175, 0.51)", borderTopWidth:1, paddingVertical:30}}>
 
                 <Text style={styles.headingTxt}>Boost Post</Text>
-                </View>
+                </TouchableOpacity>
 
              </View>
         </View>

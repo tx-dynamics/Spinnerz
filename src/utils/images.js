@@ -52,6 +52,10 @@ const images = {
     DownArrow: require("../assets/images/DownArrow.png"),
     Party: require("../assets/images/Party.png"),
     BlackCross: require("../assets/images/BlackCross.png"),
+    Estimate: require("../assets/images/Estimate.png"),
+    RedCross: require("../assets/images/RedCross.png"),
+    Wave: require("../assets/images/Wave.png"),
+    BlackRightArrow: require("../assets/images/BlackRightArrow.png"),
    
 
 }
