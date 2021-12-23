@@ -7,6 +7,7 @@ export default {
     green:"#68BB59C9",
     pink:"#FF8585",
     darkGreen:"#27C366",
+    lightGrey:"#A3A3A3",
    
 
     

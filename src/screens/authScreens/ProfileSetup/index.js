@@ -82,7 +82,7 @@ let navigation = useNavigation()
                 
              
 
-                <TouchableOpacity onPress={() => navigation.navigate("Login")}
+                <TouchableOpacity onPress={() => navigation.navigate("Subscription")}
                 style={styles.btnContainer}>
                     <Text style={styles.btnLoginTxt}>Next</Text>
                 </TouchableOpacity>

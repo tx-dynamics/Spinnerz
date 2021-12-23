@@ -44,6 +44,13 @@ const images = {
     ChatUser: require("../assets/images/ChatUser.png"),
     Send: require("../assets/images/Send.png"),
     WhiteNotification: require("../assets/images/WhiteNotification.png"),
+    Star: require("../assets/images/Star.png"),
+    GreenCheck: require("../assets/images/GreenCheck.png"),
+    Stripe: require("../assets/images/Stripe.png"),
+    PayPal: require("../assets/images/PayPal.png"),
+    MasterCard: require("../assets/images/MasterCard.png"),
+    DownArrow: require("../assets/images/DownArrow.png"),
+    Party: require("../assets/images/Party.png"),
    
 
 }

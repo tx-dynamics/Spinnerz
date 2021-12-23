@@ -97,6 +97,7 @@ let navigation = useNavigation()
                     </TouchableOpacity>
 
                 </View>
+                
                 <View style={{backgroundColor:"rgba(62, 186, 255, 0.5)",  marginHorizontal:20, marginTop:16, borderRadius:10, paddingVertical:20,}}>
                     <View style={{flexDirection:"row", justifyContent:"center"}}>
                         <Image source={Images.Logout} style={{height:18, width:74, }}/>
