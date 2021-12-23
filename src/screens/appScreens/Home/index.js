@@ -92,9 +92,12 @@ const Home = () => {
                         style={styles.inputField}/>
                        
                 </View>
+                <TouchableOpacity onPress={() => navigation.navigate("Filter")}>
                 <Image
                     source={Images.Filter} style={{height:32, width:32, marginLeft:10}} resizeMode={"contain"}
                 />
+                </TouchableOpacity>
+               
 
             </View>
 

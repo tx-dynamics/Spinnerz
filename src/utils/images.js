@@ -51,6 +51,7 @@ const images = {
     MasterCard: require("../assets/images/MasterCard.png"),
     DownArrow: require("../assets/images/DownArrow.png"),
     Party: require("../assets/images/Party.png"),
+    BlackCross: require("../assets/images/BlackCross.png"),
    
 
 }

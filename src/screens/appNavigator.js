@@ -18,6 +18,7 @@ import Setting from 'src/screens/appScreens/Setting'
 import EditProfile from 'src/screens/appScreens/EditProfile'
 import Friends from 'src/screens/appScreens/Friends'
 import ChatScreen from 'src/screens/appScreens/ChatScreen'
+import Filter from 'src/screens/appScreens/Filter'
 
 
 const StackNavigator = createStackNavigator()
@@ -38,6 +39,7 @@ const HomeNavigator =() => {
             <StackNavigator.Screen name="EditProfile" component={EditProfile}/>
             <StackNavigator.Screen name="Friends" component={Friends}/>
             <StackNavigator.Screen name="ChatScreen" component={ChatScreen}/>
+            <StackNavigator.Screen name="Filter" component={Filter}/>
             
 
         </StackNavigator.Navigator>
