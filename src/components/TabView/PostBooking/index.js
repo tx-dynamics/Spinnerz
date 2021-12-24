@@ -19,6 +19,8 @@ const PostBooking = () => {
             id:2,
             name:"Emma White booked you for an event",
             lastMsg:"1 hour ago",
+            userName:"Emma White"
+
         },
         
     ]

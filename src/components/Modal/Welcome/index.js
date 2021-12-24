@@ -18,7 +18,9 @@ const Welocome = ({ setWelcomeModal, welcomeModal }) => {
 
   useEffect(() => {
     setTimeout(() => {
-      dispatch(setUser(true))
+      if(welcomeModal === true){
+          dispatch(setUser(true))
+      }
     },4000)
 })
   

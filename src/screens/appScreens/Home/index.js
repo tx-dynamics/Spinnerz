@@ -107,6 +107,7 @@ const Home = () => {
 
             <FlatList
             data={HomeData}
+            showsVerticalScrollIndicator={false}
             keyExtractor={(item) => item.id.toString()}
             renderItem={({item , index}) => (
                 <View style={styles.listContiner}>

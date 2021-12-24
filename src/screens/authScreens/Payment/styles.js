@@ -28,7 +28,6 @@ const styles = StyleSheet.create({
         fontWeight:"400",
         padding:0,
         fontFamily:Fonts.Regular,
-        marginHorizontal:15,
         marginTop:10,
     },
     paypalContainer:{height:74, borderRadius:6, backgroundColor:"#D8F1FF", justifyContent:"center",alignItems:"center", marginTop:13},

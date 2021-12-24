@@ -35,6 +35,16 @@ const styles = StyleSheet.create({
        fontFamily:Fonts.Bold,
        textAlign:"center"
     },
+    continueTxt:{
+       color:Colors.white,
+       fontSize:18,
+       fontFamily:Fonts.Regular,
+       fontWeight:"500",
+       textAlign:"center",
+       position:"absolute",bottom:0,
+       textAlign:"center"
+ 
+    },
     addPhotoTxt:{
        color:Colors.white,
        fontSize:14,

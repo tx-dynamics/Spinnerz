@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
         fontWeight:"600",
         padding:0,
         fontFamily:Fonts.Regular,
-        marginHorizontal:15,
+        // marginHorizontal:15,
         marginTop:10,
         
     },
@@ -39,7 +39,6 @@ const styles = StyleSheet.create({
         fontWeight:"500",
         padding:0,
         fontFamily:Fonts.Regular,
-        marginHorizontal:15,
         marginTop:10,
         
     },
@@ -80,10 +79,9 @@ const styles = StyleSheet.create({
     lastMsgTxt:{
         letterSpacing:0.75,
         color:Colors.black,
-        fontSize:10,
-        fontWeight:"400",
+        fontSize:12,
+        fontWeight:"600",
         fontFamily:Fonts.Regular,
-        marginTop:6
     },
   
 

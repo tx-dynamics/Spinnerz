@@ -8,12 +8,12 @@
         "source": "/Users/mac/Desktop/Spinnerz/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_signupback.png.flat",
-        "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_signupback.png"
-    },
-    {
         "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_logout.png.flat",
         "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_logout.png"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_signupback.png.flat",
+        "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_signupback.png"
     },
     {
         "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_camera.png.flat",
@@ -28,16 +28,20 @@
         "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_passwordeye.png"
     },
     {
-        "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_backgroudimage.png.flat",
-        "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_backgroudimage.png"
-    },
-    {
         "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "/Users/mac/Desktop/Spinnerz/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_backgroudimage.png.flat",
+        "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_backgroudimage.png"
+    },
+    {
         "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_helpcenter.png.flat",
         "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_helpcenter.png"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_star.png.flat",
+        "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_star.png"
     },
     {
         "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
@@ -56,16 +60,24 @@
         "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_location.png"
     },
     {
-        "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/mac/Desktop/Spinnerz/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_mastercard.png.flat",
+        "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_mastercard.png"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_cross.png.flat",
+        "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_cross.png"
     },
     {
         "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-xxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
         "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
     },
     {
-        "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_cross.png.flat",
-        "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_cross.png"
+        "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/mac/Desktop/Spinnerz/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_greencheck.png.flat",
+        "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_greencheck.png"
     },
     {
         "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_viewpost.png.flat",
@@ -76,12 +88,16 @@
         "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_report.png"
     },
     {
+        "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_rightarrow.png.flat",
+        "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_rightarrow.png"
+    },
+    {
         "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_whitechat.png.flat",
         "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_whitechat.png"
     },
     {
-        "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_rightarrow.png.flat",
-        "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_rightarrow.png"
+        "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_wave.png.flat",
+        "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_wave.png"
     },
     {
         "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
@@ -98,6 +114,10 @@
     {
         "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_menu.png.flat",
         "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_menu.png"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_stripe.png.flat",
+        "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_stripe.png"
     },
     {
         "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_friends.png.flat",
@@ -128,6 +148,10 @@
         "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_loginback.png"
     },
     {
+        "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_party.png.flat",
+        "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_party.png"
+    },
+    {
         "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/Users/mac/Desktop/Spinnerz/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
@@ -136,12 +160,20 @@
         "source": "/Users/mac/Desktop/Spinnerz/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_downarrow.png.flat",
+        "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_downarrow.png"
+    },
+    {
         "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/Users/mac/Desktop/Spinnerz/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_whitecamera.png.flat",
         "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_whitecamera.png"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_blackcross.png.flat",
+        "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_blackcross.png"
     },
     {
         "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_chat.png.flat",
@@ -164,6 +196,10 @@
         "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_paymentmethod.png"
     },
     {
+        "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_redcross.png.flat",
+        "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_redcross.png"
+    },
+    {
         "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_dollor.png.flat",
         "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_dollor.png"
     },
@@ -182,6 +218,10 @@
     {
         "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_home.png.flat",
         "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_home.png"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_estimate.png.flat",
+        "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_estimate.png"
     },
     {
         "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_activehome.png.flat",
@@ -212,6 +252,10 @@
         "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
     },
     {
+        "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_paypal.png.flat",
+        "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_paypal.png"
+    },
+    {
         "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_leftarrow.png.flat",
         "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_leftarrow.png"
     },
@@ -230,6 +274,10 @@
     {
         "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
         "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-xxxhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_blackrightarrow.png.flat",
+        "source": "/Users/mac/Desktop/Spinnerz/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_blackrightarrow.png"
     },
     {
         "merged": "/Users/mac/Desktop/Spinnerz/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_mybooking.png.flat",

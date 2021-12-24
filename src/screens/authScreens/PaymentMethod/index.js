@@ -1,15 +1,23 @@
 import React, {useCallback, useDebugValue, useEffect, useState} from 'react'
 import {View, StatusBar, Image, StyleSheet, Text, SafeAreaView, TextInput, TouchableOpacity, FlatList, Platform} from "react-native"
 import {useNavigation, useIsFocused} from '@react-navigation/native'
-import {Colors, Images} from 'src/utils'
+import {Colors, Images, Fonts} from 'src/utils'
 import styles from './styles'
 import WelcomeModalView from 'src/components/Modal/Welcome'
 
+import DropDownPicker from 'react-native-dropdown-picker';
 
 const PaymentMethod = () => {
     let navigation = useNavigation()
     let isFocused = useIsFocused()
     const [welcomeModal , setWelcomeModal] = useState(false)
+    const [open, setOpen] = useState(false);
+  const [value, setValue] = useState('United State');
+  const [items, setItems] = useState([
+    { tag: 'United State', label: 'United State', value: 'United State' },
+    { tag: 'London', label: 'London', value: 'London' },
+  ]);
+ 
 
   
 
@@ -35,17 +43,38 @@ const PaymentMethod = () => {
 
              <View style={{flex:1,marginTop:13, backgroundColor:Colors.white, marginHorizontal:20}}>
             <Text style={styles.selectPayment}>SECURE PAYMENT</Text>
-            <View style={[styles.inputContainer, {marginTop:30, paddingVertical:14}]}>
-                     <TextInput 
+            <DropDownPicker
+            open={open}
+            value={value}
+            items={items}
+            setOpen={setOpen}
+            setValue={setValue}
+            setItems={setItems}
+            style={{
+              borderColor: "#E5F6FF",
+              borderRadius: 5,
+              color: Colors.sky,
+              backgroundColor:"#E5F6FF"
+            }}
+            labelStyle={{
+              fontFamily: Fonts.Regular,
+              fontSize: 14,
+              color: Colors.black,
+              fontWeight:"500"
+            }}
+            arrowColor={Colors.sky}
+            activeLabelStyle={{ color: Colors.black }}
+            selectedLabelStyle={{ color: Colors.black }}
+          />
+                     {/* <TextInput 
                         placeholder={"United States"}
                         placeholderTextColor={Colors.black}
                         multiline={false}
                         keyboardType="number-pad"
                         underlineColorAndroid="transparent" 
                         style={styles.inputField}/>
-                <Image source={Images.DownArrow} style={{height:14, width:10, marginRight:20}} resizeMode={"contain"}/>
+                <Image source={Images.DownArrow} style={{height:14, width:10, marginRight:20}} resizeMode={"contain"}/> */}
 
-                </View>
             <View style={[styles.inputContainer, {marginTop:13, paddingVertical:14}]}>
                 <Image source={Images.MasterCard} style={{height:30, width:30}} resizeMode={"contain"}/>
                      <TextInput 
