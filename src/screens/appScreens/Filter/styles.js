@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
         backgroundColor:Colors.white,
         flexDirection:"row",
         borderRadius:10,
-        paddingVertical:15,
+        paddingVertical:10,
         alignItems:"center",
         paddingLeft:10,
         marginVertical:10,
@@ -39,6 +39,7 @@ const styles = StyleSheet.create({
         padding:0,
         paddingStart:10,
         fontFamily:Fonts.Regular,
+        flex:1
         // height:25
     },
     des:{

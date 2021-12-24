@@ -19,7 +19,7 @@ const PostBoost = ({ setPostBoostModal, postBoostModal }) => {
   let navigation = useNavigation()
 const HandleHome = () => {
   dispatch(setBoostPost(true))
-  navigation.navigate("Home")
+  navigation.navigate("BoostingPost")
 }
 
 
@@ -38,7 +38,7 @@ const HandleHome = () => {
           <TouchableOpacity onPress={() => setPostBoostModal(!postBoostModal)}>
             <Image source={Images.RedCross} style={{ height: 24, width: 24, alignSelf: "flex-end" }} resizeMode={"contain"} />
           </TouchableOpacity>
-          <Text style={[styles.desTxt, { marginTop: 26 }]}>Your post has been boostedo</Text>
+          <Text style={[styles.desTxt, { marginTop: 26 }]}>Your post has been boosted</Text>
           <TouchableOpacity onPress={() => HandleHome()}
           style={styles.okBtnContainer}>
             <Text style={styles.okTxt}>Ok</Text>

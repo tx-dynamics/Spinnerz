@@ -20,7 +20,10 @@ import Friends from 'src/screens/appScreens/Friends'
 import ChatScreen from 'src/screens/appScreens/ChatScreen'
 import Filter from 'src/screens/appScreens/Filter'
 import BoostPost from 'src/screens/appScreens/BoostPost'
+import BoostingPost from 'src/screens/appScreens/BoostingPost'
 import AddPaymentMethod from 'src/screens/appScreens/AddPaymentMethod'
+import BoostingDashboard from 'src/screens/appScreens/BoostingDashboard'
+import Advertisement from 'src/screens/appScreens/Advertisement'
 
 
 const StackNavigator = createStackNavigator()
@@ -43,7 +46,10 @@ const HomeNavigator =() => {
             <StackNavigator.Screen name="ChatScreen" component={ChatScreen}/>
             <StackNavigator.Screen name="Filter" component={Filter}/>
             <StackNavigator.Screen name="BoostPost" component={BoostPost}/>
+            <StackNavigator.Screen name="BoostingPost" component={BoostingPost}/>
             <StackNavigator.Screen name="AddPaymentMethod" component={AddPaymentMethod}/>
+            <StackNavigator.Screen name="BoostingDashboard" component={BoostingDashboard}/>
+            <StackNavigator.Screen name="Advertisement" component={Advertisement}/>
             
 
         </StackNavigator.Navigator>
@@ -58,6 +64,11 @@ const MyTabs = () =>  {
       tabBarOptions={{
         keyboardHidesTabBar: true,
         showLabel:false, 
+        style:{
+            height:70,
+            borderWidth:1,
+            borderRadius:13
+        }
       }}
         screenOptions={{
             headerShown:false,
@@ -106,10 +117,14 @@ const MyTabs = () =>  {
         <Tab.Screen name="Plus" component={Plus} 
         options={{
             tabBarIcon: ({focused}) => (
-                <Image
-                source ={Images.Plus}
-                style={{height:51, width:51,}}
-                resizeMode={"contain"}/>
+                <View style={{elevation:5}}>
+                    <Image
+                    source ={Images.Plus}
+                    style={{height:51, width:51}}
+                    resizeMode={"contain"}/>
+                </View>
+                 
+                
             )
         }} 
         />

@@ -56,16 +56,16 @@ const Filter = () => {
 
              <View style={{flex:1, backgroundColor:Colors.white, marginHorizontal:20}}>
              <View style={styles.inputContainer}>
-                <Image
-                    source={Images.Search} style={{height:16, width:16}} resizeMode={"contain"}
-                />
-                     <TextInput 
+                    <Image
+                        source={Images.Search} style={{ height: 16, width: 16 }} resizeMode={"contain"}
+                    />
+                    <TextInput
                         placeholderTextColor={Colors.darkBlack}
-                        placeholder={"Search.."}
+                        placeholder={"Search..."}
                         multiline={false}
-                        underlineColorAndroid="transparent" 
-                        style={styles.inputField}/>
-                       
+                        underlineColorAndroid="transparent"
+                        style={styles.inputField} />
+
                 </View>
             
              </View>

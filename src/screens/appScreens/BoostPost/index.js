@@ -2,8 +2,9 @@ import React, { useCallback, useEffect, useState } from 'react'
 import { View, StatusBar, Image, StyleSheet, Text, SafeAreaView, TextInput, TouchableOpacity, FlatList, Platform } from "react-native"
 import { useNavigation, useIsFocused } from '@react-navigation/native'
 import { Colors, Images } from 'src/utils'
-import Slider from 'react-native-slider';
+// import Slider from 'react-native-slider';
 // var Slider = require('react-native-slider');
+import Slider from '@react-native-community/slider';
 import styles from './styles'
 
 
@@ -52,23 +53,23 @@ const BoostPost = () => {
 
             <View style={{ flex: 1, marginTop: 10, backgroundColor: Colors.white, marginHorizontal: 20 }}>
                 <Text style={styles.selectDuration}>Select Duration</Text>
-                <View style={{ height: "15%",}}>
+                <View>
                 <View style={{flexDirection:"row", justifyContent:"space-between", marginTop:10}}>
                     <Text style={styles.lastMsgTxt}>1 Day</Text>
                     <Text style={styles.lastMsgTxt}>30 Day</Text>
                 </View>
                 <Slider
-                    style={{width: "100%", height: 40,}}
-                    minimumValue={10}
-                    maximumValue={100}
-                    minimumTrackTintColor={"red"}
-                    maximumTrackTintColor="#000000"
-                    thumbImage={Images.Thumb}
-                    thumbTouchSize={{width: 40, height: 40}}
-                    trackStyle={{height:15, borderRadius:10, backgroundColor:"rgba(0, 0, 0, 0.15)"}}
-/>
+                style={{width: "100%", height: 40, }}
+                minimumValue={0}
+                maximumValue={1}
+                minimumTrackTintColor={Colors.sky}
+                maximumTrackTintColor="#000000"
+                thumbImage={Images.Thumb}
+                barStyle={{height:120}}
+                
+                    />
                 </View>
-                <View style={{ flexDirection: "row", marginTop: 10, }}>
+                <View style={{ flexDirection: "row", marginTop: 30, }}>
                     <Text style={[styles.selectDuration, { marginTop: 0, marginHorizontal: 0,}]}>Estimated People Reached</Text>
                     <Image source={Images.Estimate} style={{ height: 13, width: 13, marginStart: 10, alignSelf: "center" }} />
                 </View>
@@ -82,7 +83,7 @@ const BoostPost = () => {
                 </View>
                 <View style={{flexDirection:"row", justifyContent:"space-between", marginTop:40}}>
                     <Text style={styles.perday}>Total budget</Text>
-                    <Text style={[styles.perday, {color:Colors.black,textDecorationLine: 'underline' }]}>$30.00 </Text>
+                    <Text style={[styles.perday, {color:Colors.black,textDecorationLine: 'underline', fontSize:16 }]}>$30.00 </Text>
                 </View>
 
                 <TouchableOpacity onPress={() => navigation.navigate("AddPaymentMethod")}

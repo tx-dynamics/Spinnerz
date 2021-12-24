@@ -133,19 +133,8 @@ const Home = () => {
                      <Text 
                     onPress={() => toggleNumberOfLines(index)}
                     style={[styles.des, {color:Colors.sky , marginTop:10}]}>{textShown === index ?'...less' : '...more'}</Text> : null}
-                    {boostPost ? 
-                    <View style={{flexDirection:"row", justifyContent:"space-between", marginHorizontal:20,backgroundColor:"#E5F6FF", height:26, borderRadius:6, marginTop:10}}>
-                       <View style={{flexDirection:"row", justifyContent:"center", alignSelf:"center", marginStart:10}}>
-                           <Image source={Images.Wave} style={{height:9, width:9, alignSelf:"center"}} resizeMode={"contain"}/>
-                           <Text style={styles.boostValue}>31.4 k reach</Text>
-                       </View>
-                       <View style={{flexDirection:"row", justifyContent:"center", alignSelf:"center", marginEnd:10}}>
-                           <Text style={styles.boostValue}>View all</Text>
-                           <Image source={Images.BlackRightArrow} style={{height:6, width:5, alignSelf:"center"}} resizeMode={"contain"}/>
-                       </View>
-                    </View>
-                    :
-                    interested ?
+                    
+                    {interested ?
                     <TouchableOpacity onPress={() => InterestedButton()}
                     style={styles.btnContainer}>
                             <Text style={[styles.userTxt, {color:Colors.white , textAlign:"center"}]}>I'm Interested</Text>

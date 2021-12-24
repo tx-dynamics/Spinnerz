@@ -13,6 +13,8 @@ import java.util.ArrayList;
 
 // @react-native-community/masked-view
 import org.reactnative.maskedview.RNCMaskedViewPackage;
+// @react-native-community/slider
+import com.reactnativecommunity.slider.ReactSliderPackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 // react-native-pager-view
@@ -67,6 +69,7 @@ public class PackageList {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
       new RNCMaskedViewPackage(),
+      new ReactSliderPackage(),
       new RNGestureHandlerPackage(),
       new PagerViewPackage(),
       new SafeAreaContextPackage(),
