@@ -57,6 +57,10 @@ const images = {
     Wave: require("../assets/images/Wave.png"),
     BlackRightArrow: require("../assets/images/BlackRightArrow.png"),
     Thumb: require("../assets/images/Thumb.png"),
+    PlayPause: require("../assets/images/PlayPause.png"),
+    Frequency: require("../assets/images/Frequency.png"),
+    Play: require("../assets/images/Play.png"),
+    BottomTab: require("../assets/images/BottomTab.png"),
    
 
 }

@@ -3,8 +3,6 @@ import {View, StatusBar, Image, StyleSheet, Text, SafeAreaView, TextInput, Touch
 import {useNavigation, useIsFocused} from '@react-navigation/native'
 import {Colors, Images} from 'src/utils'
 import styles from './styles'
-import  Header  from 'src/components/Header'
-import ConfirmRequestModalView from 'src/components/Modal/ConfirmRequest'
 import FriendsModalView from 'src/components/Modal/FriendsModal'
 
 
@@ -97,7 +95,7 @@ const Friends = () => {
                 <View style={{flex:1 , height:"100%", justifyContent:"center",}}>
                     <Text style={styles.headerTxt}>Friends</Text>
                 </View>
-                <TouchableOpacity
+                <TouchableOpacity onPress={() => navigation.navigate("FriendRequest")}
                  style={{width:"15%", height:"100%", justifyContent:"center", alignItems:"center",}}>
                     <Image source ={Images.Friends} style={{width:23, height:17}} resizeMode={"contain"}/>
                 </TouchableOpacity>
@@ -122,6 +120,7 @@ const Friends = () => {
                 <FlatList
                     data={HomeData}
                     contentContainerStyle={{marginTop:10}}
+                    showsVerticalScrollIndicator={false}
                     keyExtractor={(item) => item.id.toString()}
                     renderItem={({item , index}) => (
                         <View style={styles.listContiner}>

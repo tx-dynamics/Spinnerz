@@ -27,6 +27,7 @@ const styles = StyleSheet.create({
         fontSize:13,
         fontWeight:"500",
         fontFamily:Fonts.Regular,
+        marginVertical:20
     },
     inputContainer:{
         backgroundColor:"#E5F6FF",

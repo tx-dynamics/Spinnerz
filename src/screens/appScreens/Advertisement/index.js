@@ -79,9 +79,9 @@ const Advertisement = () => {
                             </View>
                         </View>
                             
-                        <TouchableOpacity >
+                        {/* <TouchableOpacity >
                         <Image source={Images.More} style={{height:24, width:24}} resizeMode={"contain"}/>
-                        </TouchableOpacity>
+                        </TouchableOpacity> */}
                              
                     </View>
                     <Text style={styles.des} numberOfLines={2}>{item.des}</Text>
@@ -93,8 +93,8 @@ const Advertisement = () => {
                             <Text style={[styles.userTxt, {color:Colors.white , textAlign:"center"}]}>Book Now</Text>
                     </TouchableOpacity>
 
-                    <TouchableOpacity
-                        style={{flexDirection:"row", justifyContent:"space-between", marginHorizontal:20,backgroundColor:"#E5F6FF", height:26, borderRadius:6, marginTop:10}}>
+                    <TouchableOpacity onPress={() => navigation.navigate("BoostingDashboard")}
+                        style={{flexDirection:"row", justifyContent:"space-between", marginEnd:20,backgroundColor:"#E5F6FF", height:26, borderRadius:6, marginTop:10}}>
                        <View style={{flexDirection:"row", justifyContent:"center", alignSelf:"center", marginStart:10}}>
                            <Image source={Images.Wave} style={{height:9, width:9, alignSelf:"center"}} resizeMode={"contain"}/>
                            <Text style={styles.boostValue}>31.4 k reach</Text>

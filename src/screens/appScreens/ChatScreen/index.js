@@ -88,7 +88,8 @@ const Chat = () => {
             contentContainerStyle={{paddingBottom:20}}
             keyExtractor={(item) => item.id.toString()}
             renderItem={({item}) => (
-                item.check === "receiver"?
+                <View>
+                {item.check === "receiver"?
                 
                 <View style={{flexDirection:"row",}}>
                     <View style={{backgroundColor:Colors.white,elevation:4,width:"70%", paddingVertical:20, paddingHorizontal:20,
@@ -102,14 +103,37 @@ const Chat = () => {
                 <View style={{backgroundColor:Colors.sky,width:"70%", paddingVertical:20, paddingHorizontal:20,
                 borderRadius:10,}}>
                 <Text style={styles.timeSenderTxt}>{item.message}</Text>
+            
+                </View>
+                
+                </View>}
+                {/* <View style={{flexDirection:"row",}}>
+                    <View style={{backgroundColor:Colors.white,elevation:4,width:"70%", paddingVertical:20, paddingHorizontal:20,
+                        borderRadius:10}}>
+                    <Text style={styles.timeReceiverTxt}>item.message</Text>
+
+                    </View>
+                </View> */}
 
                 </View>
 
-            </View>
+            
             )}
+            
+
             />
+           
+           
             </View>
+
             </ScrollView>
+            <View style={{backgroundColor:Colors.white,elevation:4,width:"40%", paddingVertical:30, paddingHorizontal:15,
+                borderRadius:10,flexDirection:"row", marginStart:20}}>
+            
+                <View style={{height:8, width:9, borderRadius:8, backgroundColor:Colors.sky, borderWidth:0.2, borderColor:Colors.sky}}></View>
+                <View style={{height:8, width:9, borderRadius:8, backgroundColor:Colors.black, borderWidth:0.2, borderColor:Colors.black, marginHorizontal:10}}></View>
+                <View style={{height:8, width:9, borderRadius:8, backgroundColor:Colors.sky, borderWidth:0.2, borderColor:Colors.sky}}></View>
+            </View>
             <KeyboardAvoidingView style={{flexDirection:"row", height:"10%",marginHorizontal:20,marginBottom:10}} 
             behavior={Platform.OS === "ios" ? "padding" : "height"}>
                <View style={styles.inputContainer}>

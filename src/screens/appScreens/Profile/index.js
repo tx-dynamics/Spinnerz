@@ -42,24 +42,26 @@ let navigation = useNavigation()
                 <Text style={styles.emailTxt}>WilliamJames18@etc.com</Text>
 
                 <View style={{backgroundColor:"rgba(62, 186, 255, 0.5)",  marginHorizontal:20, marginTop:30, borderRadius:10, paddingVertical:20,}}>
-                    <View style={{flexDirection:"row", }}>
+                    <TouchableOpacity onPress={() => navigation.navigate("ViewProfile")}
+                    style={{flexDirection:"row", }}>
                         <View style={{backgroundColor:Colors.sky,height:18, width:18, justifyContent:"center",alignItems:"center" , borderRadius:4, marginStart:16}}>
                             <Image source={Images.ViewProfile} style={{height:8, width:8, }}/>
                         </View>
                         <Text style={styles.profileContainerTxt}>View Profile</Text>
-                    </View>
+                    </TouchableOpacity>
                     <View style={{flexDirection:"row", marginTop:20}}>
                         <View style={{backgroundColor:Colors.sky,height:18, width:18, justifyContent:"center",alignItems:"center" , borderRadius:4, marginStart:16}}>
                             <Image source={Images.UploadDemo} style={{height:8, width:8, }}/>
                         </View>
                         <Text style={styles.profileContainerTxt}>Upload a demo</Text>
                     </View>
-                    <View style={{flexDirection:"row", marginTop:20}}>
+                    <TouchableOpacity onPress={() => navigation.navigate("BoostingPost")}
+                    style={{flexDirection:"row", marginTop:20}}>
                         <View style={{backgroundColor:Colors.sky,height:18, width:18, justifyContent:"center",alignItems:"center" , borderRadius:4, marginStart:16}}>
                             <Image source={Images.ViewPost} style={{height:8, width:8, }}/>
                         </View>
                         <Text style={styles.profileContainerTxt}>View posts</Text>
-                    </View>
+                    </TouchableOpacity>
 
                 </View>
                 <View style={{backgroundColor:"rgba(62, 186, 255, 0.5)",  marginHorizontal:20, marginTop:16, borderRadius:10, paddingVertical:20,}}>
@@ -82,12 +84,13 @@ let navigation = useNavigation()
                         </View>
                         <Text style={styles.profileContainerTxt}>Booking details</Text>
                     </View>
-                    <View style={{flexDirection:"row", marginTop:20}}>
+                    <TouchableOpacity onPress={() => navigation.navigate("Advertisement")}
+                    style={{flexDirection:"row", marginTop:20}}>
                         <View style={{backgroundColor:Colors.sky,height:18, width:18, justifyContent:"center",alignItems:"center" , borderRadius:4, marginStart:16}}>
                             <Image source={Images.Advertisment} style={{height:8, width:8, }}/>
                         </View>
                         <Text style={styles.profileContainerTxt}>Advertisement</Text>
-                    </View>
+                    </TouchableOpacity>
                     <TouchableOpacity onPress={() => navigation.navigate("Setting")}
                     style={{flexDirection:"row", marginTop:20}}>
                         <View style={{backgroundColor:Colors.sky,height:18, width:18, justifyContent:"center",alignItems:"center" , borderRadius:4, marginStart:16}}>

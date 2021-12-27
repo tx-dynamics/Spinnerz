@@ -41,11 +41,11 @@ const styles = StyleSheet.create({
         letterSpacing:0.75,
         color:Colors.black,
         fontSize:10,
-        fontWeight:"500",
+        fontWeight:"600",
         padding:0,
         fontFamily:Fonts.Regular,
-        marginHorizontal:15,
         marginTop:10,
+        lineHeight:16
         
     },  userTxt:{
         letterSpacing:0.75,

@@ -35,42 +35,57 @@ const Setting = () => {
         {
             id:1,
             name:"My Bookings",
-            image:Images.MyBooking
+            image:Images.MyBooking,
+            move : "Setting"
+
         },
         {
             id:2,
             image:Images.PaymentMethod,
             name:"Payment Method",
+            move : "Setting"
+
         },
         {
             id:3,
             image:Images.HelpCenter,
             name:"Booking details",
+            move : "Setting"
+
         },
         {
             id:4,
             image:Images.AboutUs,
             name:"Advertisement",
+            move : "Advertisement"
         },
         {
             id:5,
             image:Images.Friends,
             name:"Friends",
+            move : "Setting"
+
         },
         {
             id:6,
             image:Images.BackDollor,
             name:"Hourly rate",
+            move : "Setting"
+
         },
         {
             id:7,
             image:Images.HelpCenter,
             name:"Help Center",
+            move : "Setting"
+
         },
         {
             id:7,
             image:Images.AboutUs,
             name:"About Us",
+            move : "Setting"
+
         },
     ]
 
@@ -101,7 +116,8 @@ const Setting = () => {
             contentContainerStyle={{marginHorizontal:10}}
             keyExtractor={(item) => item.id.toString()}
             renderItem={({item , index}) => (
-                <TouchableOpacity style={styles.listContiner}>
+                <TouchableOpacity onPress={() => navigation.navigate(item.move)}
+                style={styles.listContiner}>
                     <View style={styles.innerContainer}>
                     <View style={{backgroundColor:Colors.sky,height:28, width:28, justifyContent:"center",alignItems:"center" , borderRadius:4, marginStart:16}}>
                         <Image source={item.image} style={{height:15, width:15, }} resizeMode={"contain"}/>

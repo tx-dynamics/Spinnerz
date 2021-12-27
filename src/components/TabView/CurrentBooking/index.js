@@ -17,7 +17,7 @@ const CurrentBooking = () => {
         },
         {
             id:2,
-            name:"Emma White booked you for an event",
+            name:"booked you for an event",
             userName:"Emma White",
             lastMsg:"1 hour ago",
         },

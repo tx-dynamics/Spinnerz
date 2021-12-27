@@ -1,7 +1,7 @@
 import React, {useCallback, useEffect, useState} from 'react'
 import {View, StatusBar, Image, StyleSheet, Text, SafeAreaView, TextInput, TouchableOpacity, FlatList, Platform} from "react-native"
 import {useNavigation, useIsFocused} from '@react-navigation/native'
-import {Colors, Images} from 'src/utils'
+import {Colors, Images, Fonts} from 'src/utils'
 import styles from './styles'
 import  Header  from 'src/components/Header'
 import ConfirmRequestModalView from 'src/components/Modal/ConfirmRequest'
@@ -17,22 +17,26 @@ const ChatMember = () => {
       const HomeData = [
         {
             id:1,
-            name:"Alex Jhones Sent you a booking request",
+            user:"Alex Jhones ",
+            name:"Sent you a booking request",
             lastMsg:"1 hour ago",
         },
         {
             id:2,
-            name:"Alex Jhones Sent you a booking request",
+            user:"Alex Jhones ",
+            name:"Sent you a booking request",
             lastMsg:"1 hour ago",
         },
         {
             id:3,
-            name:"Alex Jhones Sent you a booking request",
+            user:"Alex Jhones ",
+            name:"Sent you a booking request",
             lastMsg:"1 hour ago",
         },
         {
+            user:"Alex Jhones ",
             id:4,
-            name:"Alex Jhones Sent you a booking request",
+            name:"Sent you a booking request",
             lastMsg:"1 hour ago",
         },
         
@@ -70,7 +74,10 @@ const ChatMember = () => {
                     <View style={styles.innerContainer}>
                         <Image source={Images.ChatUser} style={{height:45, width:45,marginStart:10 }} resizeMode={"contain"}/>
                     <View style={styles.userNameContainer}>
+                        <View style={{flexDirection:"row",  marginEnd:5}}>
+                        <Text style={[styles.userTxt , {fontFamily: Fonts.Bold}]}>{item.user}</Text>
                         <Text style={styles.userTxt}>{item.name}</Text>
+                        </View>
                         <Text style={styles.lastMsgTxt}>{item.lastMsg}</Text>
                     </View>
 

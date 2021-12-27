@@ -2,9 +2,9 @@ import React, { useCallback, useEffect, useState } from 'react'
 import { View, StatusBar, Image, StyleSheet, Text, SafeAreaView, TextInput, TouchableOpacity, FlatList, Platform } from "react-native"
 import { useNavigation, useIsFocused } from '@react-navigation/native'
 import { Colors, Images } from 'src/utils'
-// import Slider from 'react-native-slider';
+import Slider from 'react-native-slider';
 // var Slider = require('react-native-slider');
-import Slider from '@react-native-community/slider';
+// import Slider from '@react-native-community/slider';
 import styles from './styles'
 
 
@@ -63,9 +63,10 @@ const BoostPost = () => {
                 minimumValue={0}
                 maximumValue={1}
                 minimumTrackTintColor={Colors.sky}
-                maximumTrackTintColor="#000000"
-                thumbImage={Images.Thumb}
-                barStyle={{height:120}}
+                maximumTrackTintColor={Colors.grey}
+                thumbTintColor={Colors.sky}
+                thumbStyle={{width: 20, height: 20}}
+                // thumbImage={Images.Thumb}
                 
                     />
                 </View>

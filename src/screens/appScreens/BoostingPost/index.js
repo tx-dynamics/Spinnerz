@@ -101,10 +101,11 @@ const BoostingPost = () => {
                         {lengthMore ?
                             <Text
                                 onPress={() => toggleNumberOfLines(index)}
-                                style={[styles.des, { color: Colors.sky, marginTop: 10 }]}>{textShown === index ? '...less' : '...more'}</Text> : null}
+                                style={[styles.des, { color: Colors.sky, marginTop: 10 }]}>{textShown === index ? '...less' : '...more'}</Text> 
+                            : null}
                         
                         <TouchableOpacity onPress={() => navigation.navigate("BoostingDashboard")}
-                        style={{flexDirection:"row", justifyContent:"space-between", marginHorizontal:20,backgroundColor:"#E5F6FF", height:26, borderRadius:6, marginTop:10}}>
+                        style={{flexDirection:"row", justifyContent:"space-between",marginEnd:20,backgroundColor:"#E5F6FF", height:26, borderRadius:6, marginTop:10}}>
                        <View style={{flexDirection:"row", justifyContent:"center", alignSelf:"center", marginStart:10}}>
                            <Image source={Images.Wave} style={{height:9, width:9, alignSelf:"center"}} resizeMode={"contain"}/>
                            <Text style={styles.boostValue}>31.4 k reach</Text>
