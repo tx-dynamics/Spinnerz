@@ -35,7 +35,7 @@ const Home = () => {
 
         setTextShown(textShown === index ? -1 : index)
 
-    }
+  }
     const onTextLayout = useCallback(e => {
         setLengthMore(e.nativeEvent.lines.length >= 3);
     });
@@ -127,7 +127,8 @@ const Home = () => {
                     <View>
                     <Text style={styles.des}
                             onTextLayout={onTextLayout}
-                            numberOfLines={textShown === index ? undefined : 2}>{item.des}</Text>
+                            numberOfLines={textShown === index ? undefined : 2}
+                            >{item.des}</Text>
                         {lengthMore ?
                             <Text
                                 onPress={() => toggleNumberOfLines(index)}

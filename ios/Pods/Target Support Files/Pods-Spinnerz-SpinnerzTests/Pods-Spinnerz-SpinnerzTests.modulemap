@@ -1,0 +1,6 @@
+module Pods_Spinnerz_SpinnerzTests {
+  umbrella header "Pods-Spinnerz-SpinnerzTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -148,6 +148,7 @@
     <orderEntry type="module" module-name="Spinnerz.react-native-community_masked-view" />
     <orderEntry type="module" module-name="Spinnerz.react-native-gesture-handler" />
     <orderEntry type="module" module-name="Spinnerz.react-native-safe-area-context" />
+    <orderEntry type="module" module-name="Spinnerz.react-native-svg" />
     <orderEntry type="module" module-name="Spinnerz.react-native-video" />
   </component>
 </module>

@@ -127,7 +127,7 @@ const Chat = () => {
             </View>
 
             </ScrollView>
-            <View style={{backgroundColor:Colors.white,elevation:4,width:"40%", paddingVertical:30, paddingHorizontal:15,
+            <View style={{backgroundColor:Colors.white,elevation:4,width:"30%",paddingVertical:20, paddingHorizontal:15,
                 borderRadius:10,flexDirection:"row", marginStart:20}}>
             
                 <View style={{height:8, width:9, borderRadius:8, backgroundColor:Colors.sky, borderWidth:0.2, borderColor:Colors.sky}}></View>

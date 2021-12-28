@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
         fontFamily:Fonts.Regular,
         marginHorizontal:15,
         marginTop:10,
-        
+        lineHeight:10
     },
     boostValue:{
         letterSpacing:0.75,
