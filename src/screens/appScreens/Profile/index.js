@@ -49,12 +49,13 @@ let navigation = useNavigation()
                         </View>
                         <Text style={styles.profileContainerTxt}>View Profile</Text>
                     </TouchableOpacity>
-                    <View style={{flexDirection:"row", marginTop:20}}>
+                    <TouchableOpacity onPress={() => navigation.navigate("UploadDemo")}
+                    style={{flexDirection:"row", marginTop:20}}>
                         <View style={{backgroundColor:Colors.sky,height:18, width:18, justifyContent:"center",alignItems:"center" , borderRadius:4, marginStart:16}}>
                             <Image source={Images.UploadDemo} style={{height:8, width:8, }}/>
                         </View>
                         <Text style={styles.profileContainerTxt}>Upload a demo</Text>
-                    </View>
+                    </TouchableOpacity>
                     <TouchableOpacity onPress={() => navigation.navigate("BoostingPost")}
                     style={{flexDirection:"row", marginTop:20}}>
                         <View style={{backgroundColor:Colors.sky,height:18, width:18, justifyContent:"center",alignItems:"center" , borderRadius:4, marginStart:16}}>

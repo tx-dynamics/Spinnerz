@@ -61,6 +61,9 @@ const images = {
     Frequency: require("../assets/images/Frequency.png"),
     Play: require("../assets/images/Play.png"),
     BottomTab: require("../assets/images/BottomTab.png"),
+    Audio: require("../assets/images/Audio.png"),
+    Video: require("../assets/images/Video.png"),
+    Delete: require("../assets/images/Delete.png"),
    
 
 }

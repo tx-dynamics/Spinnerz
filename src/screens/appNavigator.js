@@ -12,7 +12,7 @@ import Home from 'src/screens/appScreens/Home'
 import ChatMember from 'src/screens/appScreens/ChatMember'
 import Notification from 'src/screens/appScreens/Notification'
 import MyBooking from 'src/screens/appScreens/MyBooking'
-import Plus from 'src/screens/appScreens/Plus'
+import CreatePost from 'src/screens/appScreens/CreatePost'
 import Profile from 'src/screens/appScreens/Profile'
 import Setting from 'src/screens/appScreens/Setting'
 import EditProfile from 'src/screens/appScreens/EditProfile'
@@ -27,6 +27,11 @@ import Advertisement from 'src/screens/appScreens/Advertisement'
 import ViewProfile from 'src/screens/appScreens/ViewProfile'
 import FriendRequest from 'src/screens/appScreens/FriendRequest'
 import UserProfile from 'src/screens/appScreens/UserProfile'
+import UploadDemo from 'src/screens/appScreens/UploadDemo'
+import UploadVideo from 'src/screens/appScreens/UploadVideo'
+import UploadAudio from 'src/screens/appScreens/UploadAudio'
+import UploadedVideo from 'src/screens/appScreens/UploadedVideo'
+import UploadedAudio from 'src/screens/appScreens/UploadedAudio'
 
 
 const StackNavigator = createStackNavigator()
@@ -57,6 +62,11 @@ const HomeNavigator = () => {
             <StackNavigator.Screen name="ViewProfile" component={ViewProfile} />
             <StackNavigator.Screen name="FriendRequest" component={FriendRequest} />
             <StackNavigator.Screen name="UserProfile" component={UserProfile} />
+            <StackNavigator.Screen name="UploadDemo" component={UploadDemo} />
+            <StackNavigator.Screen name="UploadVideo" component={UploadVideo} />
+            <StackNavigator.Screen name="UploadAudio" component={UploadAudio} />
+            <StackNavigator.Screen name="UploadedVideo" component={UploadedVideo} />
+            <StackNavigator.Screen name="UploadedAudio" component={UploadedAudio} />
 
 
         </StackNavigator.Navigator>
@@ -125,7 +135,7 @@ const MyTabs = () => {
                                 resizeMode={"contain"} />
                     )
                 }} />
-            <Tab.Screen name="Plus" component={Plus}
+            <Tab.Screen name="CreatePost" component={CreatePost}
                 options={{
                     tabBarIcon: ({ focused }) => (
                         <Image
