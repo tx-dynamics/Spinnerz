@@ -18,7 +18,7 @@ const ShareModal = ({ setShareModal, shareModal }) => {
 
   const BtnHandleShare =() => {
     setShareModal(!shareModal)
-    navigation.navigate("BoostPost")
+    navigation.navigate("WithoutBottom", {screen :"BoostPost"})
   }
   
 

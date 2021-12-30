@@ -30,7 +30,7 @@ let navigation = useNavigation()
                 </TouchableOpacity>
                 <Text style={styles.profileTxt}>My Profile</Text>
                 <TouchableOpacity style={{width:"10%",paddingVertical:10, alignItems:"flex-end"}}
-                onPress={() => navigation.navigate("EditProfile")}>
+                onPress={() => navigation.navigate("WithoutBottom" ,{screen :"EditProfile"})}>
 
                  <Image source= {Images.EditProfile} style={styles.EditProfile} resizeMode={"contain"}/>
                 </TouchableOpacity>
@@ -49,7 +49,7 @@ let navigation = useNavigation()
                         </View>
                         <Text style={styles.profileContainerTxt}>View Profile</Text>
                     </TouchableOpacity>
-                    <TouchableOpacity onPress={() => navigation.navigate("UploadDemo")}
+                    <TouchableOpacity onPress={() => navigation.navigate("WithoutBottom" ,{screen :"UploadDemo"})}
                     style={{flexDirection:"row", marginTop:20}}>
                         <View style={{backgroundColor:Colors.sky,height:18, width:18, justifyContent:"center",alignItems:"center" , borderRadius:4, marginStart:16}}>
                             <Image source={Images.UploadDemo} style={{height:8, width:8, }}/>
@@ -66,7 +66,7 @@ let navigation = useNavigation()
 
                 </View>
                 <View style={{backgroundColor:"rgba(62, 186, 255, 0.5)",  marginHorizontal:20, marginTop:16, borderRadius:10, paddingVertical:20,}}>
-                    <TouchableOpacity onPress={() => navigation.navigate("Friends")}
+                    <TouchableOpacity onPress={() => navigation.navigate("WithoutBottom" ,{screen :"Friends"})}
                     style={{flexDirection:"row", }}>
                         <View style={{backgroundColor:Colors.sky,height:18, width:18, justifyContent:"center",alignItems:"center" , borderRadius:4, marginStart:16}}>
                             <Image source={Images.Friends} style={{height:8, width:8, }}/>
@@ -92,7 +92,7 @@ let navigation = useNavigation()
                         </View>
                         <Text style={styles.profileContainerTxt}>Advertisement</Text>
                     </TouchableOpacity>
-                    <TouchableOpacity onPress={() => navigation.navigate("Setting")}
+                    <TouchableOpacity onPress={() => navigation.navigate("WithoutBottom",{screen :"Setting"})}
                     style={{flexDirection:"row", marginTop:20}}>
                         <View style={{backgroundColor:Colors.sky,height:18, width:18, justifyContent:"center",alignItems:"center" , borderRadius:4, marginStart:16}}>
                             <Image source={Images.Setting} style={{height:8, width:8, }}/>

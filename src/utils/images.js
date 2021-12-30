@@ -64,6 +64,8 @@ const images = {
     Audio: require("../assets/images/Audio.png"),
     Video: require("../assets/images/Video.png"),
     Delete: require("../assets/images/Delete.png"),
+    Instagram: require("../assets/images/Instagram.png"),
+    FaceBook: require("../assets/images/FaceBook.png"),
    
 
 }

@@ -15,8 +15,12 @@ const Header = () => {
 
 
             <View style={{flexDirection:"row", height:"100%"}}>
-                <View style={{width:"15%", height:"100%", justifyContent:"center", alignItems:"center",}}>
-                    <Image source ={Images.Menu} style={{width:18, height:12}}/>
+            <View style={{width:"15%", height:"100%", justifyContent:"center", alignItems:"center",}}>
+                <TouchableOpacity 
+                onPress={() => navigation.navigate("Drawer")}
+                style={{width:"100%", height:"100%", justifyContent:"center", alignItems:"center", }}>
+                    <Image source={Images.Menu} style={{height:12, width:18}} resizeMode={"contain"}/>
+                </TouchableOpacity>
                 </View>
                 <View style={{flex:1 , height:"100%", justifyContent:"center",}}>
                     <Text style={styles.headerTxt}>Spinnerz</Text>

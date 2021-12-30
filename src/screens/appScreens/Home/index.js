@@ -6,7 +6,7 @@ import styles from './styles'
 import  Header  from 'src/components/Header'
 import ConfirmRequestModalView from 'src/components/Modal/ConfirmRequest'
 import ShareModalView from 'src/components/Modal/ShareModal'
-import {useSelector} from 'react-redux'
+import FilterScreen from '../FilterScreen'
 
 
 
@@ -93,7 +93,7 @@ const Home = () => {
                         style={styles.inputField}/>
                        
                 </View>
-                <TouchableOpacity onPress={() => navigation.navigate("Filter")}>
+                <TouchableOpacity onPress={() => navigation.navigate("WithoutBottom" , {screen: "FilterScreen"})}>
                 <Image
                     source={Images.Filter} style={{height:32, width:32, marginLeft:10}} resizeMode={"contain"}
                 />

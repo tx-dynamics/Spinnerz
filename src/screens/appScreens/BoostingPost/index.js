@@ -104,7 +104,7 @@ const BoostingPost = () => {
                                 style={[styles.des, { color: Colors.sky, marginTop: 10 }]}>{textShown === index ? '...less' : '...more'}</Text> 
                             : null}
                         
-                        <TouchableOpacity onPress={() => navigation.navigate("BoostingDashboard")}
+                        <TouchableOpacity onPress={() => navigation.navigate("WithoutBottom",{screen :"BoostingDashboard"})}
                         style={{flexDirection:"row", justifyContent:"space-between",marginEnd:20,backgroundColor:"#E5F6FF", height:26, borderRadius:6, marginTop:10}}>
                        <View style={{flexDirection:"row", justifyContent:"center", alignSelf:"center", marginStart:10}}>
                            <Image source={Images.Wave} style={{height:9, width:9, alignSelf:"center"}} resizeMode={"contain"}/>

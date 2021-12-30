@@ -39,6 +39,7 @@ const HandleHome = () => {
             <Image source={Images.RedCross} style={{ height: 24, width: 24, alignSelf: "flex-end" }} resizeMode={"contain"} />
           </TouchableOpacity>
           <Text style={[styles.desTxt, { marginTop: 26 }]}>Your post has been boosted</Text>
+       
           <TouchableOpacity onPress={() => HandleHome()}
           style={styles.okBtnContainer}>
             <Text style={styles.okTxt}>Ok</Text>

@@ -3,9 +3,8 @@ import {View, StatusBar, Image, StyleSheet, Text, SafeAreaView, TextInput, Touch
 import {useNavigation, useIsFocused} from '@react-navigation/native'
 import {Colors, Images} from 'src/utils'
 import styles from './styles'
-import  Header  from 'src/components/Header'
-import ConfirmRequestModalView from 'src/components/Modal/ConfirmRequest'
-import ShareModalView from 'src/components/Modal/ShareModal'
+
+
 
 
 const ChatMember = () => {
@@ -45,7 +44,7 @@ const ChatMember = () => {
   
 
     return(
-        <View style={{flex:1}}>
+        <View style={{flex:1, backgroundColor:Colors.white}}>
              <StatusBar translucent={false}
             barStyle={"default"}
             backgroundColor= {Colors.sky}/>
@@ -72,7 +71,7 @@ const ChatMember = () => {
             contentContainerStyle={{marginHorizontal:20}}
             keyExtractor={(item) => item.id.toString()}
             renderItem={({item , index}) => (
-                <TouchableOpacity onPress={() => navigation.navigate("ChatScreen")}
+                <TouchableOpacity onPress={() => navigation.navigate("WithoutBottom" ,{screen : "ChatMember"})}
                 style={styles.listContiner}>
                     <View style={styles.innerContainer}>
                         <Image source={Images.ChatUser} style={{height:45, width:45,marginStart:10 }} resizeMode={"contain"}/>

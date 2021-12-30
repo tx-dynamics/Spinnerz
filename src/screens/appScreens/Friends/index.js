@@ -95,7 +95,7 @@ const Friends = () => {
                 <View style={{flex:1 , height:"100%", justifyContent:"center",}}>
                     <Text style={styles.headerTxt}>Friends</Text>
                 </View>
-                <TouchableOpacity onPress={() => navigation.navigate("FriendRequest")}
+                <TouchableOpacity onPress={() => navigation.navigate("WithoutBottom" ,{screen :"FriendRequest"})}
                  style={{width:"15%", height:"100%", justifyContent:"center", alignItems:"center",}}>
                     <Image source ={Images.Friends} style={{width:23, height:17}} resizeMode={"contain"}/>
                 </TouchableOpacity>

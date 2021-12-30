@@ -152,7 +152,7 @@ const BoostingPost = () => {
 
                 </View>
 
-                <TouchableOpacity onPress={() => navigation.navigate("Advertisement")}
+                <TouchableOpacity onPress={() => navigation.navigate("WithoutBottom", {screen : "Advertisement"})}
                 style={{backgroundColor:Colors.sky, position:"absolute", bottom:50, height:48, width:"100%", borderRadius:6, justifyContent:"center"}}>
                     <Text style={styles.stopBoosting}>Stop Boosting</Text>
                 </TouchableOpacity>

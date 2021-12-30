@@ -87,7 +87,7 @@ const BoostPost = () => {
                     <Text style={[styles.perday, {color:Colors.black,textDecorationLine: 'underline', fontSize:16 }]}>$30.00 </Text>
                 </View>
 
-                <TouchableOpacity onPress={() => navigation.navigate("AddPaymentMethod")}
+                <TouchableOpacity onPress={() => navigation.navigate("WithoutBottom" , {screen :"AddPaymentMethod"})}
                 style={{width:"100%", height:48, backgroundColor:Colors.sky, borderRadius:6, justifyContent:"center", marginTop:70}}>
                     <Text style={styles.boostBtn}>Boost</Text>
                 </TouchableOpacity>

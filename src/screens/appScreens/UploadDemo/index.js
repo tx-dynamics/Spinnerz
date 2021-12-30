@@ -43,13 +43,13 @@ const UploadDemo = () => {
                      </View>
                  </View>
                <View style={{flexDirection:"row", justifyContent:"space-evenly", marginTop:60}}>
-                   <TouchableOpacity onPress={() => navigation.navigate("UploadAudio")}
+                   <TouchableOpacity onPress={() => navigation.navigate("WithoutBottom" ,{screen :"UploadAudio"})}
                    style={{width:"40%", backgroundColor:Colors.sky, height:104, borderRadius:4, justifyContent:"center",alignItems:"center"}}>
                    <Image source={Images.Audio} style={{height:18 , width:18}} resizeMode={"contain"}/>
 
                     <Text style={styles.uploadTxt}>Upload Audio</Text>
                    </TouchableOpacity>
-                   <TouchableOpacity onPress={() => navigation.navigate("UploadVideo")}
+                   <TouchableOpacity onPress={() => navigation.navigate("WithoutBottom" ,{screen :"UploadVideo"})}
                    style={{width:"40%", backgroundColor:Colors.sky, height:104,borderRadius:4,justifyContent:"center",alignItems:"center"}}>
                    <Image source={Images.Video} style={{height:32 , width:32}} resizeMode={"contain"}/>
 

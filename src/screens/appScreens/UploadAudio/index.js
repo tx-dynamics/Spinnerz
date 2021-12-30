@@ -53,7 +53,7 @@ const UploadAudio = () => {
                  </TouchableOpacity>
             
 
-                 <TouchableOpacity onPress={() =>  navigation.navigate("UploadedAudio")}
+                 <TouchableOpacity onPress={() =>  navigation.navigate("WithoutBottom",{screen :"UploadedAudio"})}
                 style={{backgroundColor:Colors.sky, position:"absolute", bottom:50, height:48, width:"100%", borderRadius:6, justifyContent:"center"}}>
                     <Text style={styles.postTxt}>Post</Text>
                 </TouchableOpacity>

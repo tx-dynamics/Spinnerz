@@ -1,5 +1,5 @@
 export default {
-    transparent : "#000000aa",
+    transparent : "transparent",
     white: "#fff",
     black:"#000000",
     sky:"#3EBAFF",
